@@ -1,0 +1,5 @@
+[1/4] cmd.exe /C "cd /D C:\esp_app\weather_DI7V9X\build\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/esp_app/weather_DI7V9X/build/partition_table/partition-table.bin C:/esp_app/weather_DI7V9X/build/mqtt_tcp.bin"
+mqtt_tcp.bin binary size 0xe6700 bytes. Smallest app partition is 0x100000 bytes. 0x19900 bytes (10%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\esp_app\weather_DI7V9X\build\bootloader\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/esp_app/weather_DI7V9X/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
